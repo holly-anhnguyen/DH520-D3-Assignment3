@@ -1,0 +1,62 @@
+/* General style */
+body{
+	font-family: Calibri, Arial, sans-serif;
+	color: #4c4c4c;
+}
+
+.container{
+	width: 960px;
+	margin: 0 auto;
+	padding: 5px 20px 20px 20px;
+}
+
+/* Page title and description */
+.page-title{
+	text-align: center;
+}
+
+.page-title h1{
+	font-size: 25px;
+	font-weight: normal;	
+	margin-bottom: 0;
+}
+
+.page-title p{
+	font-size: 12px;
+	font-style: italic;
+}
+
+/* Navigation bar */
+
+.navigation-bar{
+	width: 100%;
+	border-bottom: solid 1px #c4c4c4;
+}
+
+.navigation-bar ul{ 
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+.navigation-bar ul li{
+	list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.navigation-bar li.active{
+	border-bottom: solid 3px #4c4c4c;
+	font-weight: bold;
+}
+
+.navigation-bar a{
+	color: #4c4c4c;
+	text-decoration: none;
+}
+
+.navigation-bar a:hover{
+	color: #19641C;
+}
+

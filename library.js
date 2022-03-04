@@ -1,0 +1,1 @@
+console.log('Start of library.js file');
