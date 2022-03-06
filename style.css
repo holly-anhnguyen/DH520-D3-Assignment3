@@ -8,6 +8,15 @@ body{
 	width: 960px;
 	margin: 0 auto;
 	padding: 5px 20px 20px 20px;
+	font-size: 14px;
+}
+
+.container p{
+	line-height: 18px;
+}
+
+.container ul li{
+	margin: 5px 0;
 }
 
 /* Page title and description */
@@ -42,6 +51,7 @@ body{
 .navigation-bar ul li{
 	list-style: none;
     display: inline-block;
+    margin: 0;
     padding: 10px 20px;
     text-align: center;
 }
