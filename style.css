@@ -8,7 +8,7 @@ body{
 	width: 960px;
 	margin: 0 auto;
 	padding: 5px 20px 20px 20px;
-	font-size: 14px;
+	font-size: 1em;
 }
 
 .container p{
@@ -25,13 +25,13 @@ body{
 }
 
 .page-title h1{
-	font-size: 20px;
+	font-size: 1.3em;
 	font-weight: normal;	
 	margin-bottom: 0;
 }
 
 .page-title p{
-	font-size: 12px;
+	font-size: 1em;
 	font-style: italic;
 }
 
@@ -68,5 +68,10 @@ body{
 
 .navigation-bar a:hover{
 	color: #19641C;
+}
+
+/* Visualization */
+text{
+	font-size: 1em;
 }
 
