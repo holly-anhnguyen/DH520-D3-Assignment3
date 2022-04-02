@@ -4,8 +4,12 @@ body{
 	color: #4c4c4c;
 }
 
+a{
+	cursor: pointer;
+}
+
 .container{
-	width: 960px;
+	width: 1200px;
 	margin: 0 auto;
 	padding: 5px 20px 20px 20px;
 	font-size: 1em;
@@ -70,8 +74,50 @@ body{
 	color: #19641C;
 }
 
-/* Visualization */
-text{
-	font-size: 1em;
+#page-visual{
+	display: flex;
 }
 
+/* Legend */
+
+
+/* List of articles */
+.article-select{
+	margin-top: 20px;
+}
+.article-select>div{
+    margin-bottom: 6px;
+    font-size: .9em;
+    padding: 7px;
+}
+
+.article-select>div:hover{
+	background-color: #eee;
+}
+
+.article-select>div.selected{
+	background-color: #4c4c4c;
+	color: #fff;
+	border-radius: 3px;
+}
+/* Visualization */
+/*.visual-container svg{
+	background-color: #4c4c4c;
+}*/
+text{
+	font-size: 0.7em;
+	fill: #fff;
+}
+
+.legend {
+	display: flex;
+}
+
+.legend text{
+	font-size: 1.2em;
+	fill: #4c4c4c;
+}
+
+tspan{
+	display: block;
+}
